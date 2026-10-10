@@ -1,28 +1,28 @@
 class Kaneo < Formula
   desc "Official command-line client for Kaneo, the open source project manager"
   homepage "https://kaneo.app/docs/cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.0/kaneo-darwin-arm64"
-      sha256 "2fabfc021c64c06d94354d301667fa9056195d7f2abb00326267edb3e90c2f4e"
+      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.1/kaneo-darwin-arm64"
+      sha256 "0c020d677beb4b3643bcb851e18d6eedddaae3664ace72ab2c8d4329c1b21060"
     end
     on_intel do
-      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.0/kaneo-darwin-x64"
-      sha256 "b0d8fd05c1de09ec4b5ec96043304d9caa723391db82cf5a3bbb4a10e777b69c"
+      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.1/kaneo-darwin-x64"
+      sha256 "f0414bd99c1924b98e4a3c2e729ac65bdadf924c7f030f335d449a94e750115c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.0/kaneo-linux-arm64"
-      sha256 "9f0bd0f9f1ef34d40960a941c9eb6c775640d32fdbbcc1f2531f52473c3fb7fc"
+      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.1/kaneo-linux-arm64"
+      sha256 "60aeb1f55bce613a14e3303e8ad16a13be6e65d865aa901283026798a6bf3839"
     end
     on_intel do
-      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.0/kaneo-linux-x64"
-      sha256 "5ad0160b936dffcbf011cafe0ee502eaa6321d062640c83955d5cb10b6316a6c"
+      url "https://github.com/usekaneo/kaneo/releases/download/cli-v0.1.1/kaneo-linux-x64"
+      sha256 "9eee9f1ea82c6b1e97f9257bae1d95b1f0d30af1b63addc6c079efc95d3bf2f8"
     end
   end
 
